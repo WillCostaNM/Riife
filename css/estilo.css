@@ -1,0 +1,51 @@
+.loc{
+	background-image: url(../imagens/loc-transpa.png) ;
+	background-size: 7px;
+	background-repeat: no-repeat;
+
+}
+
+.tel{
+	background-image: url(../imagens/tel.png) ;
+	background-size: 8px;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+
+.rel{
+	background-image: url(../imagens/relo.png) ;
+	background-size: 9px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	
+}
+.menor .maior{
+}
+
+.menor{
+	font-size: 13px;
+	padding-top: 1px;
+}
+
+.maior{
+	font-size: 17.45px;
+}
+
+#barra li{
+	padding-right: 15px;
+	letter-spacing: 2px;
+
+}
+#barra a{
+	color: #08088A;
+}
+
+#barra{
+	padding-right: 10px;
+	line-height: 1em;
+}
+
+.border{
+	border: 1px solid red;
+}
