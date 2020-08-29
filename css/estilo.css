@@ -1,3 +1,6 @@
+
+/*____________________BARRINHA PRETA____________________*/
+
 .loc{
 	background-image: url(../imagens/loc-transpa.png) ;
 	background-size: 7px;
@@ -20,8 +23,12 @@
 	background-position: left center;
 	
 }
-.menor .maior{
-}
+
+/*____________________ FIM BARRINHA PRETA____________________*/
+
+
+
+/*____________________ MENU ____________________*/
 
 .menor{
 	font-size: 13px;
@@ -30,6 +37,8 @@
 
 .maior{
 	font-size: 17.45px;
+	text-transform: uppercase;
+	display: inline-block;
 }
 
 #barra li{
@@ -57,9 +66,6 @@
 }
 
 
-/*____________________MEDIA QUERIES____________________*/
-
-
 .form {
 	font-size: 13px;
 	padding-left: 5px;
@@ -71,3 +77,259 @@
     display: block;
 
 }
+
+/*____________________ FIM MENU ____________________*/
+
+
+
+
+
+
+
+
+/*____________________MEDIA QUERIES____________________*/
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	.dropdown{
+		display: none;
+	}
+
+	.maior{
+	
+	display: block;
+	}
+
+
+	.navbar-brand img{
+		width: 85px;
+		margin-top:  -15px;		
+	}
+
+	
+
+	nav#no-wrap{
+		height: 50px;
+		position: relative;
+		border: solid red 1px;
+	}
+
+	.navbar-toggler{
+
+		margin-top: -9.5px;
+	}
+
+	#barra{
+		padding-top: 10px;
+		margin-right: -20px;
+	}
+
+	#barra .direita{
+		float: right;
+		text-align: right;
+	}
+
+
+
+	
+	a.active.focus,
+	a.active:focus,
+	a.focus,
+	a:active.focus,
+	a:active:focus,
+	a:focus,
+	button.active.focus,
+	button.active:focus,
+	button.focus,
+	button:active.focus,
+	button:active:focus,
+	button:focus,
+	.btn.active.focus,
+	.btn.active:focus,
+	.btn.focus,
+	.btn:active.focus,
+	.btn:active:focus,
+	.btn:focus {
+		outline: 0;
+    	outline-color: transparent;
+    	outline-width: 0;
+    	outline-style: none;
+    	box-shadow: 0 0 0 0 rgba(0,123,255,0);
+	}
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.dropdown{
+		display: none;
+	}
+
+	.maior{
+	
+	display: block;
+	}
+
+
+	.navbar-brand img{
+		width: 85px;
+		margin-top:  -15px;		
+	}
+
+	
+
+	nav#no-wrap{
+		height: 50px;
+		position: relative;
+		border: solid red 1px;
+	}
+
+	.navbar-toggler{
+
+		margin-top: -9.5px;
+	}
+
+
+	#barra{
+		padding-top: 10px;
+		margin-right: -20px;
+	}
+
+	#barra .direita{
+		float: right;
+		text-align: right;
+	}
+
+
+		a.active.focus,
+	a.active:focus,
+	a.focus,
+	a:active.focus,
+	a:active:focus,
+	a:focus,
+	button.active.focus,
+	button.active:focus,
+	button.focus,
+	button:active.focus,
+	button:active:focus,
+	button:focus,
+	.btn.active.focus,
+	.btn.active:focus,
+	.btn.focus,
+	.btn:active.focus,
+	.btn:active:focus,
+	.btn:focus {
+    	outline: 0;
+    	outline-color: transparent;
+    	outline-width: 0;
+    	outline-style: none;
+    	box-shadow: 0 0 0 0 rgba(0,123,255,0);
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	.dropdown{
+		display: none;
+	}
+
+	.maior{
+	
+	display: block;
+	}
+
+	.navbar-brand img{
+		width: 85px;
+		margin-top:  -15px;		
+	}
+
+	
+
+	nav#no-wrap{
+		height: 50px;
+		position: relative;
+		border: solid red 1px;
+	}
+
+	.navbar-toggler{
+
+		margin-top: -9.5px;
+	}
+
+	#barra{
+		padding-top: 10px;
+		margin-right: -20px;
+	}
+
+	#barra .direita{
+		float: right;
+		text-align: right;
+	}
+
+
+
+
+	a.active.focus,
+	a.active:focus,
+	a.focus,
+	a:active.focus,
+	a:active:focus,
+	a:focus,
+	button.active.focus,
+	button.active:focus,
+	button.focus,
+	button:active.focus,
+	button:active:focus,
+	button:focus,
+	.btn.active.focus,
+	.btn.active:focus,
+	.btn.focus,
+	.btn:active.focus,
+	.btn:active:focus,
+	.btn:focus {
+		 outline: 0;
+    	outline-color: transparent;
+    	outline-width: 0;
+    	outline-style: none;
+    	box-shadow: 0 0 0 0 rgba(0,123,255,0);
+	}
+
+}
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.form {
+		font-size: 13px;
+		padding-left: 0px;
+		margin-left: -65px;
+		letter-spacing: 0.08em;
+	}
+
+	
+
+}
+
+
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	.form {
+	font-size: 13px;
+	padding-left: 5px;
+	margin-left: -25px;
+	letter-spacing: 0.08em;
+}
+
+}
+
