@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
     <link rel="stylesheet"  href="fontawesome/css/all.css">
 
@@ -20,68 +20,93 @@
     <header class="fixed-top">
 
       <!-- BARRINHA PRETA -->
-      <nav  style="font-size: 10.4px; padding-bottom: 10.6px;padding-top: 10.4px; background: #000;"  class=" navbar navbar-expand-sm text-light  d-none d-md-block">
+      <nav  style="font-size: 10.4px; padding-bottom: 10.6px;padding-top: 10.4px; background: #000;"  class=" navbar navbar-expand-lg text-light  d-none d-lg-block">
 
-        <div class="container-fluid ml- pl-0 ">
-            <div style="padding-left: 10px;" class="ml-3 marcador loc">
-              Av. Ba ar, 360, Sala 4 e 8
-               
-            </div>
+        <div class=" navbar-collapse collapse ">
+          <div class="container-fluid ml-0 pl-0 ">
+              <div style="padding-left: 10px;" class="ml-3 marcador loc">
+                Av. Ba ar, 360, Sala 4 e 8
+                 
+              </div>
 
-            <div style="padding-left: 10px;margin-left: -18px;" class="float-center marcador tel">
-               <strong>(85) 4046-1228</strong>
-            </div>
+              <div style="padding-left: 10px;margin-left: -18px;" class="float-center marcador tel">
+                 <strong>(85) 4046-1228</strong>
+              </div>
 
-            <div style="padding-left: 12px;margin-right: 10px;" class="float-right marcador rel">
-               Horário de funcionamento:<strong> de 8h às 18h e Sábado - de 7h às 15h</strong>
+              <div style="padding-left: 12px;margin-right: 10px;" class="float-right marcador rel">
+                 Horário de funcionamento:<strong> de 8h às 18h e Sábado - de 7h às 15h</strong>
+              </div>
             </div>
-          </div>
-        <div>
+          <div>
       </nav>
+    </div>
       <!-- FIM BARRINHA PRETA -->
 
 
       <!-- MENU -->      
-      <nav style="padding-bottom: 3px;" class="navbar navbar-expand-sm navbar-light bg-white border pr-4">
+      <nav id="no-wrap" style="padding-bottom: 3px;" class="navbar navbar-expand-lg navbar-light bg-white border pr-4 ">
 
-        <!-- LOGO -->
-        <a class="navbar-brand" href="#">          
-          <img src="imagens/rife.png">
-        </a>
-        <!-- FIM LOGO -->
+        
+          <!-- LOGO -->
+          <a class="navbar-brand" href="#">          
+            <img src="imagens/rife.png">
+          </a>
+          <!-- FIM LOGO -->
 
+          <button  class=" navbar-toggler  mr-4" data-toggle="collapse" data-target="#nav-principal ">
+              <i class="fas fa-bars  "></i>
+          </button>
 
         
          <!-- BARRA DE NAVEGÇÃO -->
-         <ul class="navbar-nav ml-auto d-flex flex-nowrap" id="barra">
-           <li class="nav-item maior">
-             <a class="nav-link" href="">SERVIÇOS</a>
-           </li>
-           <li class="nav-item maior">
-             <a class="nav-link" href="">COMPRAR</a>
-           </li>
-           <li class="nav-item maior">
-             <a class="nav-link" href="">ALUGAR</a>
-           </li>
-           <li class="nav-item menor">
-             <a class="nav-link" href="">A RIIFE</a>
-           </li>
-           <li class="nav-item menor">
-             <a class="nav-link" href="">A EQUIPE</a>
-           </li>
-           <li class="nav-item menor">
-             <a class="nav-link" href="">BLOG RIIFE</a>
-           </li>
-           <li class="nav-item menor">
-             <a class="nav-link" href="">ÁREA DO CORRETOR</a>
-           </li>
-           <li class="nav-item menor">
-             <a class="nav-link" href="">LIKS ÚTEIS</a>
-           </li>
-           <li class="nav-item menor">
-             <a class="nav-link" href="">SIMULADOR</a>
-           </li>
-         </ul>
+          <div class="container-fluid " > 
+
+                     
+
+            <div class=" navbar-collapse collapse ">
+             <ul class="navbar-nav ml-auto d-flex " id="barra">
+               <li class="nav-item maior">
+                 <a class="nav-link" href="">SERVIÇOS</a>
+               </li>
+               <li class="nav-item maior">
+                 <a class="nav-link" href="">COMPRAR</a>
+               </li>
+               <li class="nav-item maior">
+                 <a class="nav-link" href="">ALUGAR</a>
+               </li>
+               <li class="nav-item menor">
+                 <a class="nav-link" href="">A RIIFE</a>
+               </li>
+               <li class="nav-item menor">
+                 <a class="nav-link" href="">A EQUIPE</a>
+               </li>
+               <li class="nav-item menor">
+                 <a class="nav-link" href="">BLOG RIIFE</a>
+               </li>
+
+               <li class="dropdown">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-light">Mais</button>
+                    <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </button>
+
+                    <div class="dropdown-menu form">
+                      <a class="dropdown-item" href="#">Área do Corretor</a>
+                      <div class="dropdown-divider"></div>
+
+                      <a class="dropdown-item" href="#">Links Úteis</a>
+                      <div class="dropdown-divider"></div>         
+                                   
+                      <a class="dropdown-item" href="#">Simulador</a> 
+                      
+                    </div>
+                  </div>
+                </li>
+               
+             </ul>
+            </div>
+          </div>
+         
          <!-- FIM BARRA DE NAVEGÇÃO -->
           
       </nav>
