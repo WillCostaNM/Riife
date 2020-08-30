@@ -1,6 +1,13 @@
 
 
+html, body{
+	overflow-x: hidden;
+	overflow-y: visible;
+}
 
+body{
+	overflow-y: hidden;
+}
 
 .border{
 	border: solid red 1px;
@@ -216,7 +223,8 @@
 		
 		border-bottom: 1px rgb(0, 0, 0, 0.1) solid;
 		padding: 5px 0;
-		padding-right: 15px;
+		padding-right: 17px;
+		margin-right: -18.5px;
 		
 	}
 
@@ -224,7 +232,7 @@
 		
 		border: none;
 		padding: 5px 0;
-		padding-right: 15px;
+		padding-right: 17px;
 		
 	}
 
