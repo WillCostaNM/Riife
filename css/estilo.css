@@ -167,6 +167,18 @@ body{
 
 
 
+.carousel,
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-wrapper {
+  // Replace transition-property from carousel transition variable
+  transition: set-nth($carousel-transition, 1, height);
+}
+
+
+
 
 /* _____ FIM IMAGENS CAROUSEL _____*/
 
