@@ -7,6 +7,11 @@ html, body{
 
 body{
 	overflow-y: hidden;
+
+   overflow-x: hidden;
+  -webkit-transform: translateZ(0); 
+  -moz-transform: translateZ(0);
+
 }
 
 .border{
@@ -128,13 +133,44 @@ body{
 	margin-bottom: -267px;
 }
 
-#home1 img{
-	width: 100%; 
-	min-width: 1080px;
-	height: auto;
-	opacity: 0.6;
+/* _____ IMAGENS CAROUSEL _____*/
 
+#home1 img{
+	position: relative;
+	top: -100px;
+	width: 1888px; 
+	min-width: 1000px;
+	height: auto;
 }
+
+
+#home1 img#img1{
+	top: -455px;
+	width: 1906px; 
+	min-width: 1500px;
+	height: auto;
+}
+
+#home1 img#img2{
+	top: -200px;
+	width: 1910px; 
+	min-width: 1500px;
+	height: auto;
+}
+
+#home1 img#img3{
+	top: -200px;
+	width: 1910px; 
+	min-width: 1500px;
+	height: auto;
+}
+
+
+
+
+/* _____ FIM IMAGENS CAROUSEL _____*/
+
+
 
 
 #home2{
