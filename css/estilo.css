@@ -2,27 +2,32 @@
 
 html, body{
 	overflow-x: hidden;
-	overflow-y: visible;
+
 }
 
 body{
 	overflow-y: hidden;
 
-   overflow-x: hidden;
-  -webkit-transform: translateZ(0); 
-  -moz-transform: translateZ(0);
+  overflow-x: hidden;
+  
 
 }
+
+
 
 .border{
 	border: solid red 1px;
 
 }
 
-.tapa-topo{
-	height: 117.4px;
-	background: red;
+
+header {
+	position: fixed;
+	width: 100%;
+    top: 0;
+    z-index: 2;
 }
+
 
 
 
@@ -93,9 +98,7 @@ body{
 
 
 
-.border{
-	border: 1px solid red;
-}
+
 
 
 #no-wrap{
@@ -124,56 +127,63 @@ body{
 /* _____ IMAGENS CAROUSEL _____*/
 
 
-div.carousel-inner{
-	height: 530px;
+p{
+
+}
+
+
+#home1{
+	position: absolute;
+	height: 64.5%;
 	width: 100%;
-	min-width: 1500px;
+	z-index: -1;
 }
 
-
-#home1 img{
-	
+div.carousel {
+	position: absolute;
+	height: 100%;
 }
-
-
-#home1 img#img1{
+div.carousel-inner, div.carousel-item.active{
 	position: relative;
-	top: -440px;
-	width: 100%; 
-	height: auto;
-}
-
-#home1 img#img2{
-	position: relative;
-
-	top: -200px;
-	width: 100%; 
-	height: auto;
-
-}
-
-#home1 img#img3{
-	position: relative;
-	
-	top: -200px;
-	width: 100%; 
-	height: auto;
-
+	width: 100%;
+	height: 1000px;
 }
 
 
 
-.carousel,
-.carousel-inner {
-  height: 100%;
-}
-
-.carousel-wrapper {
-  // Replace transition-property from carousel transition variable
-  transition: set-nth($carousel-transition, 1, height);
+.a-rife{
+	margin-top: 645px;
+	background: white;
+	height: 400px;
 }
 
 
+div#controle.carousel.slide{
+	width: 100%;
+	min-width: 500px;
+}
+
+
+#img1{
+	width: 100%;
+	min-width: 1000px;
+}
+
+
+
+
+
+
+
+
+
+div.carousel-caption{
+	padding-bottom: 35%;
+}
+
+button.btn{
+	float: center;
+}
 
 
 /* _____ FIM IMAGENS CAROUSEL _____*/
@@ -233,7 +243,6 @@ div.carousel-inner{
 	nav#no-wrap{
 		height: 50px;
 		position: relative;
-		border: solid red 1px;
 	}
 
 	.navbar-toggler{
@@ -285,10 +294,7 @@ div.carousel-inner{
 		text-align: right;
 	}
 
-	.tapa-topo{
-		height: 50.4px;
-		background: red;
-	}
+	
 
 
 
@@ -359,10 +365,7 @@ div.carousel-inner{
 		text-align: right;
 	}
 
-	.tapa-topo{
-		height: 50.4px;
-		background: red;
-	}
+	
 
 
 		/*__________BARRA__________*/
@@ -520,10 +523,7 @@ div.carousel-inner{
 		text-align: right;
 	}
 
-	.tapa-topo{
-		height: 50.4px;
-		background: red;
-	}
+	
 
 
 
