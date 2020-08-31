@@ -159,6 +159,9 @@ div.carousel-inner, div.carousel-item.active{
 	margin-top: 645px;
 	background: white;
 	height: 400px;
+	z-index: 3;
+	width: 100%;
+	position: absolute;
 }
 
 
