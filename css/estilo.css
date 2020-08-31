@@ -305,7 +305,9 @@ button.btn{
 	}
 
 	
-
+a.carousel-control-prev, a.carousel-control-next{
+		margin-top: 42px;
+	}
 
 
 	
@@ -423,7 +425,7 @@ button.btn{
 
 
 	a.carousel-control-prev, a.carousel-control-next{
-	margin-top: 82px;
+		margin-top: 42px;
 	}
 
 		a.active.focus,
@@ -475,12 +477,13 @@ button.btn{
 	nav#no-wrap{
 		height: 50px;
 		position: relative;
-		border: solid red 1px;
+		z-index: 4;
 	}
 
 	.navbar-toggler{
 
 		margin-top: -9.5px;
+
 	}
 
 	/*__________BARRA__________*/
@@ -489,6 +492,7 @@ button.btn{
 		margin-left: 70%;
 		padding-left: 0;
 		padding-right: 0;
+
 	}
 
 
@@ -531,7 +535,7 @@ button.btn{
 
 
 	a.carousel-control-prev, a.carousel-control-next{
-		margin-top: 82px;
+		margin-top: 42px;
 	}
 
 
@@ -563,7 +567,7 @@ button.btn{
 	.btn:active.focus,
 	.btn:active:focus,
 	.btn:focus {
-		 outline: 0;
+		outline: 0;
     	outline-color: transparent;
     	outline-width: 0;
     	outline-style: none;
@@ -599,8 +603,9 @@ button.btn{
 @media (min-width: 992px) and (max-width: 1199.98px){
 
 	a.carousel-control-prev, a.carousel-control-next{
-		margin-top: 150px ;
+	margin-top: 110px;
 	}
+
 }
 
 
@@ -616,8 +621,8 @@ button.btn{
 
 	
 	a.carousel-control-prev, a.carousel-control-next{
-	margin-top: 150px;
-}
+	margin-top: 110px;
+	}
 
 	
 
