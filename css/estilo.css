@@ -6,16 +6,14 @@ html, body{
 }
 
 body{
+	z-index: -10;
 	overflow-y: hidden;
-
-  overflow-x: hidden;
-  
-
+  	overflow-x: hidden;
 }
 
 
 
-.border{
+.border1{
 	border: solid red 1px;
 
 }
@@ -134,10 +132,16 @@ p{
 
 #home1{
 	position: absolute;
-	height: 64.5%;
+	height: 650px;
 	width: 100%;
 	z-index: -1;
 }
+
+div.container-fluid.d-flex{
+	position: relative;
+	height: 100%;
+}
+
 
 div.carousel {
 	position: absolute;
@@ -159,17 +163,18 @@ div.carousel-inner, div.carousel-item.active{
 
 
 div#controle.carousel.slide{
+	position: relative;
+	height: auto;
 	width: 100%;
 	min-width: 500px;
 }
 
 
 #img1{
+	position: absolute;
 	width: 100%;
 	min-width: 1000px;
 }
-
-
 
 
 
@@ -184,6 +189,8 @@ div.carousel-caption{
 button.btn{
 	float: center;
 }
+
+
 
 
 /* _____ FIM IMAGENS CAROUSEL _____*/
@@ -412,6 +419,10 @@ button.btn{
 	/*__________ FIM BARRA__________*/
 
 
+	a.carousel-control-prev, a.carousel-control-next{
+	margin-top: 82px;
+	}
+
 		a.active.focus,
 	a.active:focus,
 	a.focus,
@@ -511,11 +522,14 @@ button.btn{
 		padding-right: 15px;
 		
 	}
-	/*f*/
-
+	/*f*/}
 
 	/*__________ FIM BARRA__________*/
 
+
+	a.carousel-control-prev, a.carousel-control-next{
+		margin-top: 82px;
+	}
 
 
 	#barra .direita{
@@ -574,15 +588,17 @@ button.btn{
 	background: white;	
 	margin-right: -25PX;
 
-	}
-
-	
-	
+	}	
 
 }
 
 
+@media (min-width: 992px) and (max-width: 1199.98px){
 
+	a.carousel-control-prev, a.carousel-control-next{
+		margin-top: 150px ;
+	}
+}
 
 
 /*// Extra large devices (large desktops, 1200px and up)*/
@@ -596,6 +612,10 @@ button.btn{
 	}
 
 	
+	a.carousel-control-prev, a.carousel-control-next{
+	margin-top: 150px;
+}
+
 	
 
 	
