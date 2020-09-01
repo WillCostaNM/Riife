@@ -1,7 +1,8 @@
 
-
+/*____________________________FORMATAÇÕES GERAIS____________________________*/
 html, body{
 	overflow-x: hidden;
+
 
 }
 
@@ -26,7 +27,18 @@ header {
     z-index: 2;
 }
 
+/***************** REMOÇÃO DOS ESPAÇOS LATERAIS*****************/
 
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+	width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*____________________________FIM FORMATAÇÕES GERAIS____________________________*/
 
 
 
@@ -95,10 +107,6 @@ header {
 }
 
 
-
-
-
-
 #no-wrap{
 	white-space: nowrap;
 }
@@ -118,16 +126,15 @@ header {
 
 /*____________________ FIM MENU ____________________*/
 
+
+
 /*____________________ HOME ____________________*/
 
 
 
-/* _____ IMAGENS CAROUSEL _____*/
+/* _____  CAROUSEL _____*/
 
 
-p{
-
-}
 
 
 #home1{
@@ -155,14 +162,7 @@ div.carousel-inner, div.carousel-item.active{
 
 
 
-.a-rife{
-	margin-top: 645px;
-	background: white;
-	height: 400px;
-	z-index: 3;
-	width: 100%;
-	position: absolute;
-}
+
 
 
 div#controle.carousel.slide{
@@ -181,10 +181,6 @@ div#controle.carousel.slide{
 
 
 
-
-
-
-
 div.carousel-caption{
 	padding-bottom: 35%;
 }
@@ -196,34 +192,28 @@ button.btn{
 
 
 
-/* _____ FIM IMAGENS CAROUSEL _____*/
-
-
-
-
-
-
-
+/* _____ FIM CAROUSEL _____*/
 
 /*____________________ FIM HOME ____________________*/
 
-/*____________________  HOME 2 ____________________*/
 
 
-
-
-/*____________________ FIM HOME 2 ____________________*/
-
-
-
-
-.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+/*__________________________ A-RIFE_________________________ */
+.a-rife{
+	margin-top: 645px;
+	background: white;
+	height: 400px;
+	z-index: 3;
 	width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
+	position: absolute;
+
 }
+
+/*__________________________ FIM A-RIFE_________________________ */
+
+
+
+
 
 
 
@@ -232,6 +222,10 @@ button.btn{
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+
+	section#home1{
+		display: none;
+	}
 
 	.dropdown{
 		display: none;
@@ -305,41 +299,43 @@ button.btn{
 	}
 
 	
-a.carousel-control-prev, a.carousel-control-next{
-		margin-top: 42px;
-	}
+		
 
 
-	
-	a.active.focus,
-	a.active:focus,
-	a.focus,
-	a:active.focus,
-	a:active:focus,
-	a:focus,
-	button.active.focus,
-	button.active:focus,
-	button.focus,
-	button:active.focus,
-	button:active:focus,
-	button:focus,
-	.btn.active.focus,
-	.btn.active:focus,
-	.btn.focus,
-	.btn:active.focus,
-	.btn:active:focus,
-	.btn:focus {
-		outline: 0;
-    	outline-color: transparent;
-    	outline-width: 0;
-    	outline-style: none;
-    	box-shadow: 0 0 0 0 rgba(0,123,255,0);
-	}
+		
+		a.active.focus,
+		a.active:focus,
+		a.focus,
+		a:active.focus,
+		a:active:focus,
+		a:focus,
+		button.active.focus,
+		button.active:focus,
+		button.focus,
+		button:active.focus,
+		button:active:focus,
+		button:focus,
+		.btn.active.focus,
+		.btn.active:focus,
+		.btn.focus,
+		.btn:active.focus,
+		.btn:active:focus,
+		.btn:focus {
+			outline: 0;
+	    	outline-color: transparent;
+	    	outline-width: 0;
+	    	outline-style: none;
+	    	box-shadow: 0 0 0 0 rgba(0,123,255,0);
+		}
 
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+	section#home1{
+		display: none;
+	}
 
 	.dropdown{
 		display: none;
@@ -424,9 +420,7 @@ a.carousel-control-prev, a.carousel-control-next{
 	/*__________ FIM BARRA__________*/
 
 
-	a.carousel-control-prev, a.carousel-control-next{
-		margin-top: 42px;
-	}
+	
 
 		a.active.focus,
 	a.active:focus,
@@ -487,6 +481,12 @@ a.carousel-control-prev, a.carousel-control-next{
 	}
 
 	/*__________BARRA__________*/
+
+	section#home1{
+		display: none;
+	}
+
+
 	#barra{
 		margin-right: -30px;
 		margin-left: 70%;
@@ -534,9 +534,7 @@ a.carousel-control-prev, a.carousel-control-next{
 	/*__________ FIM BARRA__________*/
 
 
-	a.carousel-control-prev, a.carousel-control-next{
-		margin-top: 42px;
-	}
+	
 
 
 	#barra .direita{
@@ -588,6 +586,7 @@ a.carousel-control-prev, a.carousel-control-next{
 		letter-spacing: 0.08em;
 	}
 
+
 	#barra{
 
 	padding-right: 10px;
@@ -597,16 +596,19 @@ a.carousel-control-prev, a.carousel-control-next{
 
 	}	
 
-}
-
-
-@media (min-width: 992px) and (max-width: 1199.98px){
-
 	a.carousel-control-prev, a.carousel-control-next{
 	margin-top: 110px;
 	}
 
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+	a.carousel-control-prev, a.carousel-control-next{
+	margin-top: 110px;
+	}
+}
+
+
 
 
 /*// Extra large devices (large desktops, 1200px and up)*/
@@ -626,9 +628,6 @@ a.carousel-control-prev, a.carousel-control-next{
 
 	
 
-	
-
 }
------------------------------------------------------------
 
 
