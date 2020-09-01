@@ -176,8 +176,39 @@ div#controle.carousel.slide{
 #img1{
 	position: absolute;
 	width: 100%;
-	min-width: 1000px;
+	min-width: 1100px;
+	z-index: 1;
 }
+
+#img2{
+	position: absolute;
+	width: 100%;
+	min-width: 1300px;
+}
+
+
+#img3{
+	position: absolute;
+	width: 100%;
+	min-width: 1300px;
+}
+
+
+#img4{
+	position: absolute;
+	width: 100%;
+	min-width: 1300px;
+}
+
+
+img#img5{
+	position: absolute;
+	width: 100%;
+	min-width: 500px;
+	height: 1000;
+}
+
+
 
 
 
@@ -194,6 +225,16 @@ button.btn{
 
 /* _____ FIM CAROUSEL _____*/
 
+/* _____ CAIXA 1 _____*/
+
+
+
+/* _____ FIM CAIXA 1 _____*/
+
+
+
+
+
 /*____________________ FIM HOME ____________________*/
 
 
@@ -203,7 +244,7 @@ button.btn{
 	margin-top: 645px;
 	background: white;
 	height: 400px;
-	z-index: 3;
+	z-index: 5;
 	width: 100%;
 	position: absolute;
 
@@ -602,12 +643,21 @@ button.btn{
 
 }
 
+
+
 @media (min-width: 992px) and (max-width: 1199.98px){
 	a.carousel-control-prev, a.carousel-control-next{
 	margin-top: 110px;
 	}
-}
 
+	
+
+
+
+
+
+
+}
 
 
 
