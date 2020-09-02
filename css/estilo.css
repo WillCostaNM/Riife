@@ -121,10 +121,14 @@ header {
 
 .dropdown-menu.show {
     display: block;
-
 }
 
 
+
+
+li.nav-item.maior a.nav-link:hover{
+	 border-bottom: 1px blue solid;
+}
 
 
 /*____________________ FIM MENU ____________________*/
@@ -150,7 +154,9 @@ span#carousel{
 	text-align: center;
 
 }
-
+a.btn.btn-outline-light:hover{
+	background: rgb(255,255,255, 0.85);
+}
 
 a.btn.btn-outline-light{
 	font-size: 10px;
@@ -220,7 +226,7 @@ div#controle.carousel.slide{
 	bottom:0;
 	left:0;
 	right:0;
-	background:rgba(0,0,0,0.45);
+	background:rgba(0,0,0,0.47);
 }
 
 #img1{
@@ -276,6 +282,15 @@ button.btn{
 
 
 /* _____ CAIXA 1 _____*/
+div#caixa1 h5{
+	right: 0;
+	left: 0;
+	color: white;
+	margin-top: 16.2px;
+	padding: 0 auto;
+	position: absolute;
+	text-transform: uppercase;
+}
 
 
 div#caixa1{
@@ -285,9 +300,10 @@ div#caixa1{
 	margin-top: 260px;
 	width: 800px;
 	height: 220px;
+	text-align: center;
 	position: absolute;
 	z-index: 7;
-	background: rgb(255,255,255,0.5); center;
+	background: rgb(255,255,255,0.5);
 	border-radius: 20px;
 
 
@@ -302,11 +318,15 @@ div.form-group{
 	position: relative;
 	margin: 0 auto;
 	margin-top: 55px;
+
 }
 
-input.form-control, {
-	border-radius: 3px;
-	background: #F2F2F2;
+input.form-control {
+	font-size: 12px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	border-radius: 4px;
+	background: #E6E6E6;
 }
 
 
@@ -326,6 +346,29 @@ input[type=number]:focus,
 [contenteditable].form-control:focus {
   box-shadow: inset 0 -1px 0 #ddd;
 }
+
+
+div#grupo-de-botoes.btn-group{
+	margin-top: 13px;
+}
+
+div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle{
+	margin-right: 31px;
+	padding: 10px 36px;
+	font-size: 13px;
+	border-radius: 3px;	
+	background: #29088A;
+	border: none;
+}
+
+div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle.ultimo{
+	margin-right: 0;
+}
+
+
+
+
+
 
 
 /* _____ FIM CAIXA 1 _____*/
@@ -362,6 +405,11 @@ input[type=number]:focus,
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+
+
+	li.nav-item.maior a.nav-link:hover{
+	 border: none;
+	}
 
 	section#home1{
 		display: none;
@@ -472,6 +520,11 @@ input[type=number]:focus,
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+	li.nav-item.maior a.nav-link:hover{
+	 border: none;
+	}
+
 
 	section#home1{
 		display: none;
@@ -591,6 +644,12 @@ input[type=number]:focus,
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+	li.nav-item.maior a.nav-link:hover{
+	 border: none;
+	}
+
+
 
 	.dropdown{
 		display: none;
