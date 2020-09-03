@@ -74,6 +74,16 @@ header {
 
 /*____________________ MENU ____________________*/
 
+nav#no-wrap{
+	border-bottom: 3px solid #29088A;
+} 
+
+
+
+a.navbar-brand img{
+	margin-top: -9px;
+}
+
 .menor{
 	font-size: 13px;
 	padding-top: 1px;
@@ -350,21 +360,33 @@ input[type=number]:focus,
 
 div#grupo-de-botoes.btn-group{
 	margin-top: 13px;
+
 }
 
 div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle{
+	height: 40px;
+	width: 125px;
 	margin-right: 31px;
 	padding: 10px 36px;
 	font-size: 13px;
 	border-radius: 3px;	
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0;
 	background: #29088A;
 	border: none;
+	position: relative;
 }
+
 
 div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle.ultimo{
 	margin-right: 0;
 }
 
+div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle.ultimo.buscar{
+	background: red;
+}
 
 
 
@@ -384,12 +406,43 @@ div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle.ultimo{
 /*__________________________ A-RIFE_________________________ */
 .a-rife{
 	margin-top: 645px;
-	background: white;
-	height: 400px;
+	background: #E6E6E6;
+	height: 376px;
 	z-index: 5;
 	width: 100%;
-	position: absolute;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
 
+
+}
+
+
+
+div.a-rife span{
+	font-size: 50px;
+	font-weight: 200;
+	font-size: 80px;
+	position: absolute;
+	transform: scale(1, 0.7);
+	right: 0;
+	left: 0;
+	color: #29088A;
+	
+}
+
+div.a-rife div{
+	margin-top: 140px;
+	font-size: 20px;
+	position: relative;
+}
+
+a.btn.btn-dark{
+	margin-top: 32px;
+	font-size: 14px;
+
+	background: #29088A;
+	text-transform: uppercase;
 }
 
 /*__________________________ FIM A-RIFE_________________________ */
@@ -406,6 +459,10 @@ div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle.ultimo{
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 
+
+	nav#no-wrap{
+	border: none;
+	} 
 
 	li.nav-item.maior a.nav-link:hover{
 	 border: none;
@@ -521,6 +578,10 @@ div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle.ultimo{
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+	nav#no-wrap{
+	border: none;
+	} 
+
 	li.nav-item.maior a.nav-link:hover{
 	 border: none;
 	}
@@ -550,7 +611,6 @@ div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle.ultimo{
 	nav#no-wrap{
 		height: 50px;
 		position: relative;
-		border: solid red 1px;
 	}
 
 	.navbar-toggler{
@@ -644,6 +704,10 @@ div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle.ultimo{
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+	nav#no-wrap{
+	border: none;
+	} 
 
 	li.nav-item.maior a.nav-link:hover{
 	 border: none;
