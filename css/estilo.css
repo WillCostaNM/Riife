@@ -420,7 +420,6 @@ div#grupo-de-botoes.btn-group button.btn.btn-info.dropdown-toggle.ultimo.buscar{
 
 
 div.a-rife span{
-	font-size: 50px;
 	font-weight: 200;
 	font-size: 80px;
 	position: absolute;
@@ -437,12 +436,29 @@ div.a-rife div{
 	position: relative;
 }
 
-a.btn.btn-dark{
-	margin-top: 32px;
+a.botao{
+	margin-top: 50px;
+	text-decoration: none;
 	font-size: 14px;
-
+	height: 35px;
+	width: 100px;
+	line-height: 2.5em;
+	position: relative;
+	display: inline-block;
 	background: #29088A;
+	color: white;
 	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+a.botao:hover{
+	background: #2E64FE;
+}
+
+a.botao:active{
+	background: #29088A;
+	color: white;
+	
 }
 
 /*__________________________ FIM A-RIFE_________________________ */
@@ -455,12 +471,13 @@ a.btn.btn-dark{
 div.container-fluid.mapa{
 	text-align: center;
 	position: relative;
+
 }
 
 
 
 div.container-fluid.mapa span{
-	font-size: 50px;
+
 	font-weight: 200;
 	padding-top: 20px;
 	font-size: 80px;
@@ -469,6 +486,7 @@ div.container-fluid.mapa span{
 	text-transform: uppercase;
 	right: 0;
 	left: 0;
+
 	color: #29088A;
 
 }
@@ -478,13 +496,97 @@ div.container-fluid.mapa span{
 div.container-fluid.mapa iframe{
 	height: 450px;
 	width: 95%;
-	clear: both;
 	position: relative;
 	margin-top: 200px;
-
+	right: 0; 
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
+/*__________________________ FIM MAPA_________________________ */
+
+
+
+#home2{
+	height: 600px;
+	position: relative;
+
+}
+
+div.container-fluid.d-flex img{
+		min-width: 600px;
+	}
+
+
+#home2 .container-fluid.d-flex .box1{
+	height: 73%;
+	width: 94%;
+	left: 0;
+	right: 0;
+	position: absolute;
+    background: rgba(255,255,255,0.5);
+	margin:  auto;
+	transform: translateY(130px);
+	z-index: 1;
+	box-shadow: 1.9px 2px 7px rgb(0,0,0);
+}
+
+#home2 .container-fluid.d-flex .box1 .box2{
+	position: ;
+
+	z-index: 2;
+	height: 95%;
+	width: 90%;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin:  auto;
+	transform: translateY(-20px);
+}
+
+
+#home2 .container-fluid.d-flex .box1 .box2 .btn-group-vertical{
+	width: 48%;
+	position: relative;
+	margin-top: 120px;
+}
+
+
+
+#home2 .container-fluid.d-flex .box1 .box2 .btn-group-vertical a{
+	margin-bottom: 16px;
+	height: 40px;
+	font-size: 13px;
+	border: none;
+	background-color: #08088A;
+	line-height: 2.3em;
+}
+
+a.baixo{
+	width: 100%;
+	position: relative;
+	display: block;
+	margin-bottom: 16px;
+}
+
+
+a.btn.btn-danger.dropdown-toggle.baixo.vagas{
+	background: #08088A;
+	font-size: 13px;
+	height: 40px;
+	line-height: 2.3em;	
+	border: none;
+}
+
+
+a.btn.btn-danger.dropdown-toggle.baixo.buscar{
+	font-size: 13px;
+	height: 40px;
+	line-height: 2.3em;	
+	border: none;
+}
 
 
 
@@ -495,8 +597,56 @@ div.container-fluid.mapa iframe{
 @media (max-width: 575.98px) {
 
 
+	.a-rife{
+		padding-top: 25px;
+		height: 310px;
+		margin-top: 0;
+
+
+	}
+
+	#barra ul{
+		margin-top: -3px;
+	}
+
+
+	div.a-rife div{
+		margin-top: 100px;
+		font-size: 17px;
+		text-align: auto;
+		padding: 0 40px;
+
+
+	}
+
+	div.a-rife span{
+		font-size: 50px;
+	}
+
+	a.botao{
+		height: 50px;
+		width: 310px;
+		line-height: 3.5em;
+		border-radius: 15px;
+		background: linear-gradient(#5882FA,#0431B4,#29088A);
+		margin-top: 20px;
+		font-weight: 500;
+	}
+
+
+
+
+	div.container-fluid.mapa span{
+		font-size: 45px;
+	}
+
+	div.container-fluid.mapa iframe{
+		margin-top: 140px;
+	}
+
+
 	nav#no-wrap{
-	border: none;
+	border-bottom: 3px solid #29088A;
 	} 
 
 	li.nav-item.maior a.nav-link:hover{
@@ -537,6 +687,8 @@ div.container-fluid.mapa iframe{
 	#barra{
 		margin-right: -40px;
 		margin-left: -30px;
+		margin-top: -6px;
+
 	}
 
 		#barra ul li{
@@ -613,9 +765,48 @@ div.container-fluid.mapa iframe{
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+
+	
+
+	.a-rife{
+		padding-top: 25px;
+		height: 300px;
+		margin-top: 0;
+
+	}
+
+	div.a-rife div{
+		margin-top: 100px;
+	}
+
+	div.a-rife span{
+		font-size: 50px;
+	}
+
+	a.botao{
+		height: 50px;
+		width: 510px;
+		line-height: 3.5em;
+		border-radius: 15px;
+		background: linear-gradient(#5882FA,#0431B4,#29088A);
+		margin-top: 20px;
+		font-weight: 500;
+	}
+
+
+
+
+	div.container-fluid.mapa span{
+		font-size: 45px;
+	}
+
+	div.container-fluid.mapa iframe{
+		margin-top: 140px;
+	}
+
 	nav#no-wrap{
-	border: none;
-	} 
+	border-bottom: 3px solid #29088A;
+	}  
 
 	li.nav-item.maior a.nav-link:hover{
 	 border: none;
@@ -667,6 +858,13 @@ div.container-fluid.mapa iframe{
 		/*__________BARRA__________*/
 	#barra{
 		margin-right: -30px;
+		margin-top: -6px;
+
+
+	}
+
+	#barra ul{
+		margin-top: -3px;
 	}
 
 
@@ -675,7 +873,7 @@ div.container-fluid.mapa iframe{
 		border-bottom: 1px rgb(0, 0, 0, 0.1) solid;
 		margin-left: -25%;
 		padding: 5px 0;
-		padding-right: 20px;
+		padding-right: 10px;
 		background: white;	
 		margin-right: -4px;
 
@@ -740,8 +938,46 @@ div.container-fluid.mapa iframe{
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+	.a-rife{
+		padding-top: 25px;
+		height: 300px;
+		margin-top: 0;
+
+	}
+
+
+	div.a-rife div{
+		margin-top: 100px;
+	}
+
+	div.a-rife span{
+		font-size: 50px;
+	}
+
+	a.botao{
+		height: 50px;
+		width: 510px;
+		line-height: 3.5em;
+		border-radius: 15px;
+		background: linear-gradient(#5882FA,#0431B4,#29088A);
+		margin-top: 20px;
+		font-weight: 500;
+	}
+
+
+
+
+	div.container-fluid.mapa span{
+		font-size: 45px;
+	}
+
+	div.container-fluid.mapa iframe{
+		margin-top: 140px;
+	}
+	
+
 	nav#no-wrap{
-	border: none;
+	border-bottom: 3px solid #29088A;
 	} 
 
 	li.nav-item.maior a.nav-link:hover{
@@ -790,7 +1026,15 @@ div.container-fluid.mapa iframe{
 		margin-left: 70%;
 		padding-left: 0;
 		padding-right: 0;
+		margin-top: -3px;
+		margin-top: -6px;
 
+
+
+	}
+
+	#barra ul{
+		margin-top: -3px;
 	}
 
 
@@ -802,6 +1046,8 @@ div.container-fluid.mapa iframe{
 		padding-right: 20px;
 		background: white;	
 		margin-right: 5.57px;
+		margin-left: 1px;
+		padding-left: 15px;
 
 	}
 
@@ -871,11 +1117,25 @@ div.container-fluid.mapa iframe{
 	}
 
 }
+@media (min-width: 768px) and (max-width: 770px){
+	#barra ul li{
+		position: relative;
+		border-bottom: 1px rgb(0, 0, 0, 0.1) solid;
+		margin-left: -19%;
+		padding: 5px 0;
+		background: white;	
+		margin-right: 5.57px;
 
+	}
+}
 
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+	#home2{
+		display: none;
+	}
 
 	.form {
 		font-size: 13px;
@@ -907,7 +1167,9 @@ div.container-fluid.mapa iframe{
 	margin-top: 110px;
 	}
 
-	
+	#home2{
+		display: none;
+	}
 
 
 }
@@ -916,6 +1178,12 @@ div.container-fluid.mapa iframe{
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+
+	#home2{
+		display: none;
+	}
+
 
 	.form {
 	font-size: 13px;
