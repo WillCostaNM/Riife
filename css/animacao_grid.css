@@ -1,0 +1,121 @@
+.container-fluid45 {
+    display: flex;
+    padding-left: 2%;
+    margin-top: 200px;
+    flex-wrap: nowrap;
+
+}
+
+.container_animacao45 {
+    margin-left: 0;
+    width: 24%;
+    margin-right: 1%;
+    height: 26.4vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    float: left;
+    background-color: bisque;
+    flex-wrap: nowrap;
+   
+}
+
+
+/* -------------------- */
+
+.conteudo45 {
+    display: none;
+}
+
+.container_animacao45:hover .conteudo45 {
+    display: inline-block
+}
+
+.div245 {
+    z-index: 1;
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    height: 0px;
+    width: 100%;
+    position: relative;
+    transition-duration: 0.2s;
+    animation: reverse1 0.1s ease-out forwards;
+}
+
+.container_animacao45:hover .div245 {
+    background-color: rgba(35, 92, 216, 0.5);
+    animation: animation 0.2s ease-out forwards;
+}
+
+@keyframes animation {
+    from {
+        height: 0%;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+@keyframes reverse1 {
+    from {
+        height: 100%;
+    }
+    to {
+        height: 0%;
+    }
+}
+
+
+
+
+.conteudo45{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.txt_white45{
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.borda45{
+    padding-top: 6px;
+    border-bottom: white solid 1.5px;
+    position: relative;
+    float: center;
+    
+}
+
+.lista45{
+    font-size: 14.5px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    padding: 0;
+    list-style-type:none;
+    float: left;
+    padding-top: 6px;
+}
+
+.lista45 li {
+    padding-bottom: 6px;
+}
+
+
+.cimaAzul45{
+    /* max-width: -23vw;
+    min-width: 23.44vw; */
+    z-index: 5;
+    margin-top: -26vw;
+    width: 23.29vw;
+    position: absolute;
+    height: 30px;
+    float: right;
+    background-color: blue;
+}
