@@ -1,22 +1,22 @@
-<<<<<<< HEAD
 
 <div align='center'>
     <img width="120" src="imagens/rife.png"></img><br><br>
 </div>
-=======
-# Riife
 
-Site imobiliária
 
+
+Site de imobiliária
+<br>
 Frot End Site Imobliária
+<br>
 
--Bootstrap 4
--CSS3
--HTML5
+-Bootstrap 4<br>
+-CSS3<br>
+-HTML5<br>
 
 
-👇
->>>>>>> 78beda717cf53baf5f9be773ce7b24af672f4b8b
+
+
 
 <br>
 <div align='center'>
@@ -48,6 +48,6 @@ Frot End Site Imobliária
     <img src="imagens/mapa.gif"></img><br><br><br><br>
 </div>
 
-
-👇<br>
+👇
+<br>
 https://obscurewillian.github.io/Riife/
