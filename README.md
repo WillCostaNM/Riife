@@ -1,7 +1,22 @@
+<<<<<<< HEAD
 
 <div align='center'>
     <img width="120" src="imagens/rife.png"></img><br><br>
 </div>
+=======
+# Riife
+
+Site imobiliária
+
+Frot End Site Imobliária
+
+-Bootstrap 4
+-CSS3
+-HTML5
+
+
+👇
+>>>>>>> 78beda717cf53baf5f9be773ce7b24af672f4b8b
 
 <br>
 <div align='center'>
