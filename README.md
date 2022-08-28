@@ -50,4 +50,4 @@ Frot End Site Imobliária
 
 👇
 <br>
-https://obscurewillian.github.io/Riife/
+https://riife.vercel.app/
